@@ -1,0 +1,60 @@
+.name {
+    font-size: 22px;
+    color: white;
+}
+
+.connect-button {
+    background: #61ceff;
+    padding: 5px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect-button:hover {
+    background: #58add4;
+}
+
+.button-p {
+    font-size: 14px;
+}
+
+.nav-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth-logo {
+    width: 35px;
+    height: auto;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.menu-side {
+    display: flex;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.menu p {
+    margin: 0px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,119 @@
+.main-mint-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+    background: #11121e;
+}
+
+.text-side {
+    background: #11121e;
+    max-width: 50%;
+    color: white;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: baseline;
+    margin-top: 100px;
+}
+
+.image-side {
+    /* background: chartreuse; */
+    max-width: 50%;
+    margin-right: 80px;
+}
+
+.planet-image {
+    width: 600px;
+    height: auto;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    /* image-rendering: pixelated; */
+}
+
+.count-button {
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background: white;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.count-button:hover {
+    background: #e5e2e2;
+}
+
+.input-field {
+    padding: 10px;
+}
+
+.mint-button {
+    background: #61ceff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 0px 15px;
+}
+
+.mint-button:hover {
+    background: #58add4;
+}
+
+.mint-section {
+    display: flex;
+    margin-top: 30px;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+}
+
+.price-wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-value {
+    margin: 0px;
+}
+
+.ethereum-icon {
+    margin-left: 6px;
+    width: auto;
+    height: 35px;
+    margin-bottom: 3px;
+}
+
+.price-description {
+    margin: 10px 0px;
+}
+
+.supply-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.supply {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.supply-p {
+    font-size: 18px;
+    margin: 0px 0px;
+    color: rgb(146, 143, 143);
+}
